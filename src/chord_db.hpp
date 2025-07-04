@@ -36,7 +36,7 @@ const std::vector<std::pair<const sf::String, std::set<unsigned short>>> chord_d
     {"dim7", {3, 6, 9}},
     {"dim9", {3, 6, 9, 2}},
     {"dim11", {3, 6, 9, 2, 5}},
-    {L"ø", {3, 6, 10}},
+    {"ø", {3, 6, 10}},
     {"aug", {4, 8}},
     {"aug7", {4, 8, 10}},
     {"aug9", {4, 8, 10, 2}},
@@ -47,4 +47,21 @@ const std::vector<std::pair<const sf::String, std::set<unsigned short>>> chord_d
     {"augMaj11", {4, 8, 11, 2, 5}},
     {"augMaj13", {4, 8, 11, 2, 5, 9}},
     {"6", {4, 7, 9}},
-    {"m6", {3, 7, 9}}};
+    {"m6", {3, 7, 9}},
+
+    // Added chords:
+    {"sus2♯9", {2, 7, 2}},  // Suspended 2 with sharp 9
+    {"sus4♯9", {5, 7, 2}},  // Suspended 4 with sharp 9
+    {"7♭5", {4, 7, 10, 6}},  // 7 with flat 5
+    {"7♯5", {4, 7, 10, 8}},  // 7 with sharp 5
+    {"7♯9", {4, 7, 10, 2, 8}},  // 7 with sharp 9
+    {"maj6", {4, 7, 9}},  // Major sixth
+    {"mMaj7♯5", {3, 7, 11, 6}},  // Minor major 7 with sharp 5
+    {"m7♭5", {3, 7, 10, 6}},  // Half-diminished minor 7
+    {"mMaj7♯11", {3, 7, 11, 6, 10}},  // Minor major 7 with sharp 11
+    {"maj7♯11", {4, 7, 11, 6}},  // Major 7 with sharp 11
+    {"6/9", {4, 7, 9, 2}},  // 6/9 chord
+    {"maj7♯9", {4, 7, 11, 2, 8}},  // Major 7 with sharp 9
+    {"dimMaj7", {3, 6, 11}},  // Diminished major 7
+};
+
